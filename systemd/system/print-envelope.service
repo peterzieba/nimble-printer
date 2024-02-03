@@ -1,0 +1,14 @@
+[Unit]
+Description=Envelope Printing Service
+After=network.target
+StartLimitIntervalSec=30
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=pi
+ExecStart=/home/nimbleprint/print-envelope.sh
+
+[Install]
+WantedBy=multi-user.target
