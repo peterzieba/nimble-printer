@@ -9,6 +9,6 @@ apt-get install enscript lprng ghostscript inotify-tools samba
 # Printer Drivers
 For a Brother printer, you will need both the "LPR driver" and the "CUPSWrapper". For the MFC-L8900CDW, this looks like:
 <pre>
-https://download.brother.com/welcome/dlf103251/mfcl8900cdwcupswrapper-1.5.0-0.i386.deb
-https://download.brother.com/welcome/dlf103242/mfcl8900cdwlpr-1.5.0-0.i386.deb
+wget https://download.brother.com/welcome/dlf103251/mfcl8900cdwcupswrapper-1.5.0-0.i386.deb
+wget https://download.brother.com/welcome/dlf103242/mfcl8900cdwlpr-1.5.0-0.i386.deb
 </pre>
