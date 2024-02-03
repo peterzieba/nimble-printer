@@ -1,0 +1,14 @@
+[Unit]
+Description=Color Duplexed PDF Printing
+After=network.target
+StartLimitIntervalSec=30
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=nimbleprint
+ExecStart=/home/nimbleprint/print-pdf-color-duplex.sh
+
+[Install]
+WantedBy=multi-user.target
