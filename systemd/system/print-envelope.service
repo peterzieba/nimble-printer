@@ -7,7 +7,7 @@ StartLimitIntervalSec=30
 Type=simple
 Restart=always
 RestartSec=1
-User=pi
+User=nimbleprint
 ExecStart=/home/nimbleprint/print-envelope.sh
 
 [Install]
