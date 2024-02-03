@@ -3,12 +3,12 @@ A bunch of scripts that allow printing of labels and other nonsense by uploading
 
 Prerequisites:
 <code>
-apt-get install enscript lprng ghostscript inotify-tools
+apt-get install enscript lprng ghostscript inotify-tools samba
 </code>
 
 # Printer Drivers
 For a Brother printer, you will need both the "LPR driver" and the "CUPSWrapper". For the MFC-L8900CDW, this looks like:
 <pre>
-wget https://support.brother.com/g/b/downloadhowto.aspx?c=us&lang=en&prod=mfcl8900cdw_all&os=128&dlid=dlf103242_000&flang=4&type3=559
-wget https://support.brother.com/g/b/downloadhowto.aspx?c=us&lang=en&prod=mfcl8900cdw_all&os=128&dlid=dlf103251_000&flang=4&type3=561
+https://download.brother.com/welcome/dlf103251/mfcl8900cdwcupswrapper-1.5.0-0.i386.deb
+https://download.brother.com/welcome/dlf103242/mfcl8900cdwlpr-1.5.0-0.i386.deb
 </pre>
