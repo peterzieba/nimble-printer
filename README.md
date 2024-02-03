@@ -1,5 +1,5 @@
 # nimble-printer
-A bunch of scripts that allow printing of labels and other nonsense by uploading to a fileserver. inotify is used to detect when a file has been uploaded, which calls a script to handle the actualy printing.
+A bunch of scripts that allow printing of PDFs, shipping labels, envelopers and other nonsense by uploading to a fileserver. inotify is used to detect when a file has been uploaded to a samba server, which calls a script to handle the actual printing.
 
 Prerequisites:
 <code>
