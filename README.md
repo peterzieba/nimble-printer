@@ -3,8 +3,8 @@ A bunch of scripts that allow printing of PDFs, shipping labels, envelopes and o
 
 Prerequisites:
 <code>
-apt-get install enscript ghostscript cups cups-client inotify-tools samba -y
 dpkg --add-architecture i386
+apt-get install enscript ghostscript cups cups-client inotify-tools samba -y
 </code>
 
 # Printer Drivers
