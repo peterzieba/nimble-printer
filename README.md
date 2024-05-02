@@ -4,11 +4,12 @@ A bunch of scripts that allow printing of PDFs, shipping labels, envelopes and o
 Prerequisites:
 <code>
 dpkg --add-architecture i386
-apt-get install enscript ghostscript cups cups-client inotify-tools samba -y
+apt-get install enscript ghostscript cups cups-bsd cups-client inotify-tools samba -y
 </code>
 
 # Printer Drivers
 For the MFC-L8900CDW, this looks like:
 <pre>
 wget https://download.brother.com/welcome/dlf006893/linux-brprinter-installer-2.2.3-1.gz
+gzip -d linux-brprinter-installer-2.2.3-1.gz
 </pre>
